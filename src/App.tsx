@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Instagram, Linkedin, Facebook, Calendar, Users, Lightbulb, Award, Rocket, MapPin } from 'lucide-react';
-import backgroundImage from '/assets/t.jpg';
+import backgroundImage from 'assets/t.jpg';
 import StaggeredMenu from './components/StaggeredMenu';
 
 // Simple fade in animation that won't affect layout
@@ -59,31 +59,31 @@ function App() {
   ];
 
   const topLogos = [
-    { name: 'asu logo', url: 'public/assets/logo_ain_shams.png' },
-    { name: 'cc logo', url: 'public/assets/cclogo.png' },
-    { name: 'cw logo', url: 'public/assets/cwl2.png' }
+    { name: 'asu logo', url: 'assets/logo_ain_shams.png' },
+    { name: 'cc logo', url: 'assets/cclogo.png' },
+    { name: 'cw logo', url: 'assets/cwl2.png' }
   ];
 
   const strategicPartners = [
-    { name: 'Strategic Partner 1', url: 'public/assets/partners/Strategic/BM logo.png' },
-    { name: 'Strategic Partner 2', url: 'public/assets/partners/Strategic/Gemini logo.png' }
+    { name: 'Strategic Partner 1', url: 'assets/partners/Strategic/BM logo.png' },
+    { name: 'Strategic Partner 2', url: 'assets/partners/Strategic/Gemini logo.png' }
   ];
 
   const otherPartners = [
-    { name: 'Partner 1', url: 'public/assets/partners/Anton logo.png' },
-    { name: 'Partner 2', url: 'public/assets/partners/Atomica logo.png' },
-    { name: 'Partner 3', url: 'public/assets/partners/BasharSoft Logo.png' },
-    { name: 'Partner 4', url: 'public/assets/partners/Corp logo.png' },
-    { name: 'Partner 5', url: 'public/assets/partners/efe logo.png' },
-    { name: 'Partner 6', url: 'public/assets/partners/Erada finance logo.jpg' },
-    { name: 'Partner 7', url: 'public/assets/partners/Ibag logo.png' },
-    { name: 'Partner 8', url: 'public/assets/partners/Intercom logo.jpg' },
-    { name: 'Partner 9', url: 'public/assets/partners/MTS enterprise logo.png' },
-    { name: 'Partner 10', url: 'public/assets/partners/Nassera group logo.PNG' },
-    { name: 'Partner 11', url: 'public/assets/partners/Noon logo.png' },
-    { name: 'Partner 12', url: 'public/assets/partners/Spirit logo .png' },
-    { name: 'Partner 13', url: 'public/assets/partners/TTC logo.png' },
-    { name: 'Partner 14', url: 'public/assets/partners/Wisely insure logo.png' }
+    { name: 'Partner 1', url: 'assets/partners/Anton logo.png' },
+    { name: 'Partner 2', url: 'assets/partners/Atomica logo.png' },
+    { name: 'Partner 3', url: 'assets/partners/BasharSoft Logo.png' },
+    { name: 'Partner 4', url: 'assets/partners/Corp logo.png' },
+    { name: 'Partner 5', url: 'assets/partners/efe logo.png' },
+    { name: 'Partner 6', url: 'assets/partners/Erada finance logo.jpg' },
+    { name: 'Partner 7', url: 'assets/partners/Ibag logo.png' },
+    { name: 'Partner 8', url: 'assets/partners/Intercom logo.jpg' },
+    { name: 'Partner 9', url: 'assets/partners/MTS enterprise logo.png' },
+    { name: 'Partner 10', url: 'assets/partners/Nassera group logo.PNG' },
+    { name: 'Partner 11', url: 'assets/partners/Noon logo.png' },
+    { name: 'Partner 12', url: 'assets/partners/Spirit logo .png' },
+    { name: 'Partner 13', url: 'assets/partners/TTC logo.png' },
+    { name: 'Partner 14', url: 'assets/partners/Wisely insure logo.png' }
   ];
 
   // Partner slider animation
