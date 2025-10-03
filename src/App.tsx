@@ -147,39 +147,38 @@ function App() {
       />
 
       {/* Rest of your app content */}
-      <div className="relative bg-gray-50 w-full" style={{ zIndex: 2 }}>
-        <div className="w-full py-2">
-          <div className="relative mb-6 h-20 sm:h-28">
-            {/* Left Logo - Moves right on desktop only */}
-            <div className="absolute top-1/2 left-4 sm:left-8 lg:left-16 -translate-y-1/2">
-              <img
-                src={topLogos[0].url}
-                alt={topLogos[0].name}
-                className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
-              />
-            </div>
-
-            {/* Right Logo - Moves left on desktop only */}
-            <div className="absolute top-1/2 right-4 sm:right-8 lg:right-16 -translate-y-1/2">
-              <img
-                src={topLogos[1].url}
-                alt={topLogos[1].name}
-                className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
-              />
-            </div>
-
-            {/* Center Logo - Much Bigger and Centered */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <img
-                src={topLogos[2].url}
-                alt={topLogos[2].name}
-                className="h-56 w-56 sm:h-64 sm:w-64 object-contain"
-              />
-            </div>
-          </div>
-        </div>
+     <div className="relative bg-gray-50 w-full" style={{ zIndex: 2 }}>
+  <div className="w-full py-2">
+    <div className="relative mb-6 h-20 sm:h-28">
+      {/* Left Logo - Moves right on desktop only */}
+      <div className="absolute top-1/2 left-4 sm:left-8 lg:left-64 -translate-y-1/2">
+        <img
+          src={topLogos[0].url}
+          alt={topLogos[0].name}
+          className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
+        />
       </div>
 
+      {/* Right Logo - Moves left on desktop only */}
+      <div className="absolute top-1/2 right-4 sm:right-8 lg:right-64 -translate-y-1/2">
+        <img
+          src={topLogos[1].url}
+          alt={topLogos[1].name}
+          className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
+        />
+      </div>
+
+      {/* Center Logo - Much Bigger and Centered */}
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <img
+          src={topLogos[2].url}
+          alt={topLogos[2].name}
+          className="h-56 w-56 sm:h-64 sm:w-64 object-contain"
+        />
+      </div>
+    </div>
+  </div>
+</div>
       {/* Background Image Section */}
       <div
         className="absolute left-0 right-0 bg-cover bg-center w-full"
